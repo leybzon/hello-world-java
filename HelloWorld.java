@@ -17,7 +17,7 @@ public class HelloWorld {
   double[] negativeNumbers = {-1.0, -2.0, -3.0, -4.0, -5.0};
   
   public class PositiveNumberSorter {
-    private static final int numberOfIntegers = 5;
+    private static final int NUMBER_OF_INTEGERS = 5;
     private static final int RANDOM_UPPER_BOUND = 100;
     //integer array to store the positive numbers
     int[] positiveNumbers = new int[numberOfIntegers];
